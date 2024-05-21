@@ -1,48 +1,43 @@
-*{
+* {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-div
-{
+div {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:40px;
+  margin: 40px;
 }
 
-#search
-{
+#search {
   border: none;
   cursor: pointer;
   appearance: none;
   background-color: inherit;
   transition: transform .7s ease-in-out;
-  margin-left:10px;
+  margin-left: 10px;
 }
 
-img{
+img {
   width: 30px;
   height: 30px;
 }
 
-#title
-{
+#title {
   text-align: center;
   color: black;
 }
 
-#search
-{
+#search {
   width: 357px;
   margin: 4px auto;
   text-align: center;
   display: inline-block;
 }
 
-#search_text 
-{
+#search_text {
   width: 250px;
   padding: 15px 0 15px 20px;
   font-size: 16px;
@@ -58,8 +53,7 @@ img{
   transition: all 0.15s;
 }
 
-#search_button
-{
+#search_button {
   color: lightblue;
   background: "https://png.pngtree.com/element_our/20190529/ourmid/pngtree-cartoon-blue-magnifying-glass-illustration-image_1214215.jpg";
   background-position: 30px 30px;
@@ -73,5 +67,3 @@ img{
   border-radius: 12px;
   transform: rotate(360deg);
 }
-
-
